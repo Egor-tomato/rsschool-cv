@@ -1,0 +1,126 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+a {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+h1,
+h2,
+h3 {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.wrapper {
+    max-width: 1220px;
+    margin: 20px auto;
+}
+.header {
+    display: flex;
+    background: #e94d35;
+    max-height: 696px;
+    justify-content: space-around;
+}
+.header__column {
+    align-self: center;
+}
+.header__name {
+    transform: rotate(-90deg);
+}
+.name {
+    font-size: 56px;
+
+    color: #ffffff;
+}
+.surname {
+    font-size: 80px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.job {
+    margin-top: 30px;
+    font-size: 30px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.header__info {
+    margin-top: 20px;
+    color: #ffffff;
+    margin-right: 100px;
+}
+.header__photo {
+    margin-top: 56px;
+    width: 632px;
+    height: 632px;
+}
+.info__text {
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    width: 632px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block__left {
+    padding-top: 30px;
+}
+.title__block {
+    padding: 30px 0px;
+}
+.item {
+    padding-bottom: 15px;
+}
+.info__list {
+    margin-top: 10px;
+}
+.block__right {
+    margin: 300px 85px 0px 0px;
+    padding-left: 180px;
+    padding-top: 48px;
+}
+.code {
+    padding-bottom: 12px;
+}
+.name__block {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.footer {
+    margin-top: 40px;
+    background: #e94d35;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.item__logo {
+    height: 40px;
+}
+
+.item__text {
+    color: #fff;
+    font-size: 16px;
+}
+@media (max-width: 1150px) {
+    .header {
+        justify-content: center;
+    }
+}

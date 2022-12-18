@@ -5,62 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Inter:wght@400;500&display=swap"
         rel="stylesheet">
     <title>cv-3</title>
 </head>
 
 <body>
-    <section class="container">
+    <div class="wrapper">
         <header class="header">
-            <img src="/photo.jpg" alt="Egor" class="header__photo box-shadow">
-            <div class="header__info box-shadow">
-                <h1 class="info__name ">Egor Marmylev</h1>
-                <h2 class="info__job ">Future Frontend Developer</h2>
-                <span class="info__text ">Hello! My name is Egor, I am 26 years old. I work in the field of
-                    woodworking
-                    at an enterprise for the manufacture of interior doors. My hobbies are cycling, snooker, poker and
-                    this year I started to try myself in programming, namely frontend developer. I will try my best to
-                    pass this training, and hopefully in the future I will become a cool developer).</span>
+            <div class="header__column">
+                <div class="header__name">
+                    <h1 class="name">Egor</h1>
+                    <h2 class="surname">Marmylev</h2>
+                    <h3 class="job">Feature Frontend Development</h3>
+                </div>
+            </div>
+            <div class="header__info">
+                <h3>About me</h3>
+                <span class="info__text">Hello! My name is Egor, I am 26 years old. I work in the field of
+                    woodworking at an enterprise for the manufacture of interior doors. My hobbies are cycling,
+                    snooker, poker and this year I started to try myself in programming, namely frontend developer.
+                    I will try my best to pass this training, and hopefully in the future I will become a cool
+                    developer).</span>
+                <img class="header__photo" src="/img/photo.jpg" alt="avatar">
             </div>
         </header>
-    </section>
+        <main class="main">
+            <section class="block__left">
+                <h3 class="name__block">Contact information</h3>
+                <ul class="info__list">
+                    <li class="item">Belarus Vitebsk</li>
+                    <li class="item">
+                        <a class="social__left"
+                            href="https://mail.yandex.by/?uid=1001875697#inbox">Yagor-tomato@yandex.by</a>
+                    </li>
+                    <li class="item">
+                        <a class="social__link" href="https://discord.com/channels/egor-tomato#1816/">Discord</a>
+                    </li>
+                    <li class="item">
+                        <a class="social__link" href="https://github.com/Egor-tomato">GitHub</a>
+                    </li>
+                    <li class="item">
+                        <a class="social__link" href="https://www.instagram.com/voodoo_men/">Instagram
+                        </a>
+                    </li>
+                </ul>
+                <h3 class="title__block">Skills</h3>
+                <ul class="info__list">
+                    <li class="item">HTML</li>
+                    <li class="item">CSS, SASS</li>
+                    <li class="item">JavaScript (basics)</li>
+                    <li class="item">VS Code, Figma</li>
+                </ul>
+                <h3 class="title__block">Languages</h3>
+                <ul class="info__list">
+                    <li class="item">Belarusian - native speaker</li>
+                    <li class="item">Russian - native speaker</li>
+                    <li class="item">English - A1 (upload every day)</li>
+                </ul>
+            </section>
+            <section class="block__right">
+                <h3 class="name__block">Code example</h3>
+                <pre class="code">
+                    JS 
+                    function multiply(a, b) {
+                      return a * b 
+                    } 
+                </pre>
+                <h3 class="name__block">Education</h3>
+                <ul class="info__list">Belarusian State Technological Universit
+                    <li class="item">Specialty: Technology of woodworking industries</li>
+                    <li class="item">Qualification: Technician-technologist</li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="https://rs.school/js" class="footer__item item">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="rs-school" class="item__logo" />
+                <span class="item__text">rs.school/js</span>
+            </a>
+            <a href="https://t.me/egorTomato" class="footer__item item">
+                <img src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/telegram-512.png"
+                    alt="telegram" class="item__logo" />
+                <span class="item__text">Telegram</span>
+            </a>
+        </footer>
 
-
-
-
-    <main class="main">
-        <div class="main__blok">
-            <h3 class="blok__title">Skills</h3>
-        </div>
-
-    </main>
-
-
-
-
-
-
-
-    <footer class="footer">Footer
-
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
 </body>
 
 </html>
